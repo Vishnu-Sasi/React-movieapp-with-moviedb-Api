@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5vh;
+  background-color: rgba(0, 0, 0, 0.883);
+  font-family: "Poppins", sans-serif;
+}
+.footer p {
+  align-items: center;
+  color: red;
+  margin-top: 1rem;
+}
+.footer p i {
+  color: rgba(245, 245, 245, 0.629);
+}

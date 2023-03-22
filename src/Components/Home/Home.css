@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+.poster {
+  width: 100% !important;
+  height: 80vh !important;
+  position: relative;
+}
+.poster img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+.overlay {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.334),
+    rgba(0, 0, 0, 0.317)
+  ) !important;
+  gap: 15px !important;
+  text-align: center;
+  font-family: "Poppins", sans-serif !important;
+}
+.title {
+  font-size: 60px;
+  font-weight: 500;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.343);
+  color: rgba(255, 255, 0, 0.725);
+  text-transform: uppercase;
+}
+.desc {
+  font-size: 20px;
+  width: 66%;
+  color: white;
+}
+.releasedate {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.releasedate span {
+  color: yellow;
+  font-size: 18px;
+}
+.rating {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.star i {
+  color: gold;
+}
+.star {
+  display: inline-block;
+  margin-left: 10px;
+}
+.watchnow {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(245, 245, 245, 0.662);
+  margin-top: 1.5rem;
+  transition: 0.2s ease-out;
+}
+.watchnow:hover {
+  background-color: white;
+  color: red;
+  transform: scale(1.04);
+}
+.latest {
+  width: 90%;
+  padding: 3rem;
+  margin: auto;
+}
+.latest h1 {
+  text-align: center;
+  color: red;
+}
+.new-list {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

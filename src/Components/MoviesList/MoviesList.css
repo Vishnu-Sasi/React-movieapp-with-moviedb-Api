@@ -1,0 +1,24 @@
+.movieslist {
+  width: 100%;
+  padding: 3rem;
+}
+.movieslist h1 {
+  color: red;
+  font-size: 33px;
+  display: flex;
+}
+.movieslist h1 span {
+  color: black;
+  border-bottom: 2px solid red;
+}
+.movieslist .list {
+  padding: 2rem;
+  width: 90%;
+  border: 1px solid rgba(0, 0, 0, 0.161);
+  margin: 4rem auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
